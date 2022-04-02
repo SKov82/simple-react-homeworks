@@ -12,15 +12,17 @@ export function Message(props: MessageType) {
     return (
         <div className={classes.message}>
             <img src={props.avatar} alt="avatar"/>
-            <span>
-                {props.name}
-            </span>
-            <span>
-                {props.message}
-            </span>
-            <span>
-                {props.time}
-            </span>
+            <div className={classes.block}>
+                <span className={classes.name}>
+                    {props.name}
+                </span>
+                <p>
+                    {props.message}
+                </p>
+                <span className={classes.time}>
+                    {props.time}
+                </span>
+            </div>
         </div>
     )
 }
