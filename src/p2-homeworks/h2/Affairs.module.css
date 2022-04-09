@@ -1,3 +1,19 @@
 .someClass {
-
+    margin: 10px 0 0 20px;
+}
+.someClass button {
+    margin-left: 20px;
+    border-radius: 50%;
+}
+.someClass ~ button {
+    margin: 15px 0 5px 10px;
+}
+.high {
+    color: red;
+}
+.middle {
+    color: yellow;
+}
+.low {
+    color: green;
 }
