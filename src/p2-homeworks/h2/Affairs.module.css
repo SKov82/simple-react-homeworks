@@ -7,6 +7,10 @@
 }
 .someClass ~ button {
     margin: 15px 0 5px 10px;
+    border-radius: 7px;
+    border-color: lightskyblue;
+    color: blue;
+    background-color: transparent;
 }
 .high {
     color: red;

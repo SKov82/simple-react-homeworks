@@ -1,7 +1,20 @@
 .someClass {
-
+    margin: 15px 0 15px 15px;
 }
-
+.someClass input {
+    height: 20px;
+    border-radius: 7px;
+}
+.someClass span {
+    margin-left: 20px;
+}
+.someClass button {
+    margin-left: 20px;
+    border-radius: 7px;
+    border-color: lightskyblue;
+    color: blue;
+    background-color: transparent;
+}
 .error {
     border: 1px solid red;
 }
