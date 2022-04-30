@@ -1,0 +1,48 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: #fff;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0,0,0,.2);
+    width: 55px;
+    height: 25px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@keyframes loader {
+    0% {width: 0}
+    100% {width: 270px}
+}
+
+.nav:hover {
+    animation: loader 1s forwards ease;
+}
+
+.burger {
+    padding: 10px;
+}
+.nav:hover .burger {
+    display: none;
+}
+
+.link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #666;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.link:hover {
+    color: forestgreen;
+}
