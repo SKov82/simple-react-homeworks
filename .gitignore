@@ -25,3 +25,5 @@ yarn-error.log*
 
 /.idea
 /.yarn/cache/
+/package-lock.json
+/.yarnrc.yml
