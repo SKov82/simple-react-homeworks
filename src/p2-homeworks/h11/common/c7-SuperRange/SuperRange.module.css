@@ -1,3 +1,38 @@
 .range {
 
 }
+
+.wrapper {
+    display: flex;
+}
+
+.container {
+    position: relative;
+    pointer-events: none;
+}
+
+.container input[type="range"] {
+    height: 2em;
+    display: block;
+    margin: 0;
+}
+
+.container input[type="range"]:last-child {
+    margin-top: -2em;
+}
+input[type="range"]::-webkit-slider-thumb {
+    pointer-events: all;
+}
+.container input[type=range]::-webkit-slider-runnable-track {
+    height: 8px;
+    background: #1E90FF;
+}
+.container input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #1E90FF;
+}
+.container input[type=range]::-webkit-slider-thumb {
+    margin-top: 0px;
+}
+.container input[type=range]:last-child::-webkit-slider-thumb {
+    margin-top: -7px;
+}
